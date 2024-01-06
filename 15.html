@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+
+<script>
+
+  function GetQueryString(name) {  
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
+    var r = window.location.search.substr(1).match(reg);  //获取url中"?"符后的字符串并正则匹配
+    var context = "";  
+    if (r != null)  
+         context = r[2];  
+    reg = null;  
+    r = null;  
+    return context == null || context == "" || context == "undefined" ? "" : context;  
+}
+
+
+
+var a=GetQueryString("title"); b=decodeURI(a);  document.write(b); </script></center> 
+<script>
+var intWait = document.write("3600");
+
+
+var a=GetQueryString("title");  document.write(a);
+document.write(c);
+			var b = GetQueryString("b");
+
+var c = GetQueryString("c");
+
+request.getQueryString(f);
+if(b){
+
+document.getElementById("oframe").src ="./images/"+b+".png";
+}
+//document.getElementById("oframe").src ="http://open.iqiyi.com/developer/player_js/coopPlayerIndex.html?vid="+k+"&tvid="+i;
+if(c){
+
+document.getElementById("audio_src").src ="./music/n"+c+".mp3"; 
+}
+
+		
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
